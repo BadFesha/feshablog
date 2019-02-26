@@ -59,6 +59,19 @@
 	 	}
 }
 
+@media (max-width: 1540px){
+		.box{
+			p{
+				width: 10%;
+			}
+		}
+		.contact{
+	 		h2{
+	 			width: 25%;
+	 		}
+	 	}
+}
+
 @media (min-width: 768px) and (max-width: 1440px){
 		.box{
 			p{

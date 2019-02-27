@@ -207,18 +207,21 @@ body{
 	background-color: $black;
 }
 
-.contact{
-	h2{
-	width: 15%;
-	margin: 0 auto;
-	color:$white;
-	text-align:center;	
-	font-size:30pt;
-	font-weight:normal;
-	text-transform:uppercase;
-	border-bottom: 3px solid #fcac45;
+
+	.contact-text{
+		min-width:1000px;
+		h2{
+		width: 15%;
+		margin: 0 auto;
+		color:$white;
+		text-align:center;	
+		font-size:30pt;
+		font-weight:normal;
+		text-transform:uppercase;
+		border-bottom: 3px solid #fcac45;
+		}
 	}
-}
+
 .info{
 	width: 70%;
 	margin: 0 auto;
@@ -254,7 +257,8 @@ form{
 	}
 		
 }
-	
+
+
 //End Footer
 
 @import "media"; // Always at the end

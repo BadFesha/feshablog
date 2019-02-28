@@ -15,12 +15,17 @@
 
 // ≥768px
 @include media-breakpoint-down(sm) {
-
+	.info{
+		 		width:100%;
+	}
 }
 
 // ≥576px
 @include media-breakpoint-down(xs) {
-
+	.info{
+		 		width:100%;
+		 		padding-bottom:5px;
+	}
 }
 
 
@@ -40,7 +45,7 @@
 
 // ≤768px
 @include media-breakpoint-up(md) {
-	
+
 }
 
 // ≤992px
@@ -87,7 +92,7 @@
 		}
 		.contact{
 	 		h2{
-	 			width: 30%;
+	 			width: 28%;
 	 		}
 	 	}
 }
@@ -240,7 +245,7 @@
 		 	}
 		 	.info{
 		 		width:100%;
-		 		padding-bottom: 50px;
+		 		padding-bottom: 0px;
 		 	}
 		 	.info p.p-5{
 				width: 100%;
@@ -291,7 +296,7 @@
 		 	}
 		 	.info {
 		    width: 100%;
-		    padding-bottom: 0px;
+		    padding-bottom: 10px;
 	  	}
 		 	.info p.p-5{
 				width: 100%;
@@ -308,5 +313,13 @@
 					float:none!important;
 				}
  	}
- 		
+ @media (min-width: 320px) and (max-width: 419px){
+ 	form .btn.float-right {
+    float: none!important;
+	}
+	form .custom-control.float-right {
+    float: none!important;
+}
+ }
+
 		

@@ -5,98 +5,7 @@
 
 // ≥1200px
 @include media-breakpoint-down(lg) {
-	
-}
-
-// ≥992px
-@include media-breakpoint-down(md) {
-	
-}
-
-// ≥768px
-@include media-breakpoint-down(sm) {
-
-}
-
-// ≥576px
-@include media-breakpoint-down(xs) {
-			.flexible-image{
-			display:block;
-			max-width: 768px;
-			width:80%;
-			margin: 0 auto;
-		}	
-}
-
-
-/*==========  Mobile First  ==========*/
-
-// ≤576px
-@include media-breakpoint-up(sm) {
-		.flexible-image{
-			display:block;
-			max-width: 768px;
-			width:80%;
-			margin: 0 auto;
-		}	
-}
-
-// ≤768px
-@include media-breakpoint-up(md) {
-
-}
-
-// ≤992px
-@include media-breakpoint-up(lg) {
-
-}
-
-// ≤1200px
-@include media-breakpoint-up(xl) {
-		
-}
-
-@media (max-width: 1920px){
-		.box{
-			p{
-				width: 8%;
-			}
-		}
-		.contact{
-	 		h2{
-	 			width: 20%;
-	 		}
-	 	}
-}
-
-@media (max-width: 1540px){
-		.box{
-			p{
-				width: 10%;
-			}
-		}
-		.contact{
-	 		h2{
-	 			width: 25%;
-	 		}
-	 	}
-}
-
-@media (min-width: 768px) and (max-width: 1440px){
-		.box{
-			p{
-				width: 10%;
-			}
-		}
-		.contact{
-	 		h2{
-	 			width: 25%;
-	 		}
-	 	}
-}
-
-@media (max-width: 1225px) {
- 	.about-me{
+	.about-me{
  		.col-md-6{
  			h2{
  				width: 100%;
@@ -120,9 +29,132 @@
  		}
  	}
 }
+	.about-me{
+ 		.col-md-6{
+ 			h2{
+ 				width: 100%;
+ 				font-size:29pt;
+ 			}				
+ 		}
+ 	}
+ 	.box{
+ 		p{
+ 			width: 15%;
+ 		}
+ 	} 
+ 	.box-2{
+ 		h2{
+ 			width: 20%;
+ 		}
+ 	} 
+ 	.contact{
+ 		h2{
+ 			width: 35%;
+ 		}
+ 	}
 
- @media (max-width: 768px) {
- 			.header-wrap{
+
+// ≥992px
+@include media-breakpoint-down(md) {
+	
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+	.header-wrap{
+ 				.navbar{
+ 				width: 100%;
+	 			}			
+ 			} 
+ 			.social{
+ 				float:left;
+ 			} 		
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+
+}
+
+
+/*==========  Mobile First  ==========*/
+// 
+// ≤576px
+@include media-breakpoint-up(sm) {
+		.flexible-image{
+			display:block;
+			max-width: 768px;
+			width:80%;
+			margin: 0 auto;
+		}	
+		.preview{
+			p{
+				padding: 50px 1rem 0px 1rem; 
+			}
+		}
+		.about-me{
+	 		.col-md-6{
+	 			h2{
+	 				width: 100%;
+	 				font-size:25pt;
+	 			}				
+	 		}
+ 		}
+ 		.box{
+		 		p{
+		 			width: 32%;
+		 		}
+		 	} 
+		 	.box-2{
+		 		h2{
+		 			width: 45%;
+		 		}
+		 	} 
+		 	.contact{
+		 		h2{
+		 			width: 70%;
+		 		}
+		 	}
+		 	.info { 
+				width: 100%;
+			}
+			.preview{
+				p{
+					padding: 50px 1rem 0px 1rem; 
+				}
+			}
+			.about-me{
+		 		.col-md-6{
+		 			h2{
+		 				width: 100%;
+		 				font-size:25pt;
+		 			}				
+		 		}
+	 		}
+	 		.box{
+			 		p{
+			 			width: 32%;
+			 		}
+			 	} 
+			 	.box-2{
+			 		h2{
+			 			width: 45%;
+			 		}
+			 	} 
+			 	.contact{
+			 		h2{
+			 			width: 85%;
+			 		}
+			 	}
+			 	.info { 
+					width: 100%;
+				}
+}
+
+
+// ≤768px
+@include media-breakpoint-up(md) {
+	.header-wrap{
  				.navbar{
  				width: 100%;
 	 			}			
@@ -153,161 +185,240 @@
 		 			width: 48%;
 		 		}
 		 	}
-} 		
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+		
+}
+
+// @media (max-width: 1920px){
+// 		.box{
+// 			p{
+// 				width: 8%;
+// 			}
+// 		}
+// 		.contact{
+// 	 		h2{
+// 	 			width: 25%;
+// 	 		}
+// 	 	}
+// }
+
+// @media (max-width: 1540px){
+// 		.box{
+// 			p{
+// 				width: 10%;
+// 			}
+// 		}
+// 		.contact{
+// 	 		h2{
+// 	 			width: 25%;
+// 	 		}
+// 	 	}
+// }
+
+// @media (min-width: 1225px) and (max-width: 1440px){
+// 		.box{
+// 			p{
+// 				width: 10%;
+// 			}
+// 		}
+// 		.contact{
+// 	 		h2{
+// 	 			width: 30%;
+// 	 		}
+// 	 	}
+// }
+
+// @media (max-width: 1225px) {
+//  	.about-me{
+//  		.col-md-6{
+//  			h2{
+//  				width: 100%;
+//  				font-size:29pt;
+//  			}				
+//  		}
+//  	}
+//  	.box{
+//  		p{
+//  			width: 15%;
+//  		}
+//  	} 
+//  	.box-2{
+//  		h2{
+//  			width: 20%;
+//  		}
+//  	} 
+//  	.contact{
+//  		h2{
+//  			width: 35%;
+//  		}
+//  	}
+// }
+
+//  @media (max-width: 768px) {
+ 			
+// } 		
  
 
-@media (min-width: 768px) and (max-width: 1196px) {
- 			.header-wrap{
- 				.navbar{
- 				width: 100%;
-	 			}			
- 			} 
- 			.social{
- 				float:left;
- 			} 		
- }
+// @media (min-width: 768px) and (max-width: 1196px) {
+//  			.header-wrap{
+//  				.navbar{
+//  				width: 100%;
+// 	 			}			
+//  			} 
+//  			.social{
+//  				float:left;
+//  			} 		
+//  }
 
 
-@media (max-width: 426px) {
-		.preview{
-			p{
-				padding: 50px 1rem 0px 1rem; 
-			}
-		}
-		.about-me{
-	 		.col-md-6{
-	 			h2{
-	 				width: 100%;
-	 				font-size:25pt;
-	 			}				
-	 		}
- 		}
- 		.box{
-		 		p{
-		 			width: 32%;
-		 		}
-		 	} 
-		 	.box-2{
-		 		h2{
-		 			width: 45%;
-		 		}
-		 	} 
-		 	.contact{
-		 		h2{
-		 			width: 85%;
-		 		}
-		 	}
-		 	.info { 
-				width: 100%;
-			}
-}
+// @media (max-width: 426px) {
+// 		.preview{
+// 			p{
+// 				padding: 50px 1rem 0px 1rem; 
+// 			}
+// 		}
+// 		.about-me{
+// 	 		.col-md-6{
+// 	 			h2{
+// 	 				width: 100%;
+// 	 				font-size:25pt;
+// 	 			}				
+// 	 		}
+//  		}
+//  		.box{
+// 		 		p{
+// 		 			width: 32%;
+// 		 		}
+// 		 	} 
+// 		 	.box-2{
+// 		 		h2{
+// 		 			width: 45%;
+// 		 		}
+// 		 	} 
+// 		 	.contact{
+// 		 		h2{
+// 		 			width: 85%;
+// 		 		}
+// 		 	}
+// 		 	.info { 
+// 				width: 100%;
+// 			}
+// }
 
-@media (max-width: 375px) {
-		.preview{
-			h2{
-				font-size:38pt;
-			}
-			p{
-				font-size:16pt;
-				padding: 50px 1rem 0px 1rem; 
-			}
-		}
-		.about-me{
-			padding: 0; 
-	 		.col-md-6{
-	 			padding-left: 15px!important;
-	 			h2{
-	 				width: 95%;
-	 				font-size:23pt;
-	 			}
-	 			p{
-	 				padding:.5rem;
-	 			}				
-	 		}
- 		}
- 		.box{
-		 		p{
-		 			width: 45%;
-		 		}
-		 	} 
-		 	.box-2{
-		 		h2{
-		 			width: 60%;
-		 		}
-		 	} 
-		 	.contact{
-		 		h2{
-		 			font-size:25pt;
-		 		}
-		 	}
-		 	.info{
-		 		width:100%;
-		 		padding-bottom: 50px;
-		 	}
-		 	.info p.p-5{
-				width: 100%;
-		 		padding: .5rem!important; 
-		 		padding-top: 3rem!important;
-		 	}
-		 	form.p-5{
-		 		padding: .5rem!important;
-		 	}
+// @media (max-width: 375px) {
+// 		.preview{
+// 			h2{
+// 				font-size:38pt;
+// 			}
+// 			p{
+// 				font-size:16pt;
+// 				padding: 50px 1rem 0px 1rem; 
+// 			}
+// 		}
+// 		.about-me{
+// 			padding: 0; 
+// 	 		.col-md-6{
+// 	 			padding-left: 15px!important;
+// 	 			h2{
+// 	 				width: 95%;
+// 	 				font-size:23pt;
+// 	 			}
+// 	 			p{
+// 	 				padding:.5rem;
+// 	 			}				
+// 	 		}
+//  		}
+//  		.box{
+// 		 		p{
+// 		 			width: 45%;
+// 		 		}
+// 		 	} 
+// 		 	.box-2{
+// 		 		h2{
+// 		 			width: 60%;
+// 		 		}
+// 		 	} 
+// 		 	.contact{
+// 		 		h2{
+// 		 			font-size:25pt;
+// 		 		}
+// 		 	}
+// 		 	.info{
+// 		 		width:100%;
+// 		 		padding-bottom: 50px;
+// 		 	}
+// 		 	.info p.p-5{
+// 				width: 100%;
+// 		 		padding: .5rem!important; 
+// 		 		padding-top: 3rem!important;
+// 		 	}
+// 		 	form.p-5{
+// 		 		padding: .5rem!important;
+// 		 	}
 			
-}
+// }
 
-@media (max-width: 320px) {
-		.preview{
-			h2{
-				font-size:35pt;
-			}
-			p{
-				font-size:16pt;
-				padding: 50px 1rem 0px 1rem; 
-			}
-		}
-		.about-me{
-			padding: 0; 
-	 		.col-md-6{
-	 			padding-left: 15px!important;
-	 			h2{
-	 				width: 97%;
-	 				font-size:20pt;
-	 			}				
-	 		}
- 		}
- 		.box{
-		 		p{
-		 			width: 45%;
-		 		}
-		 	} 
-		 	.box-2{
-		 		h2{
-		 			width: 60%;
-		 		}
-		 	} 
-		 	.contact{
-		 		h2{
-		 			width: 95%;
-		 			font-size:25pt;
-		 		}
-		 	}
-		 	.info {
-		    width: 100%;
-		    padding-bottom: 0px;
-	  	}
-		 	.info p.p-5{
-				width: 100%;
-		 		padding: .5rem!important; 
-		 		padding-top: 3rem!important;
-		 	}
-		 	form.p-5{
-		 		padding: .5rem!important;
-		 	}
-			form .custom-control.float-right{
-				float:none!important;
-			}
-			form .btn.float-right{
-					float:none!important;
-				}
+// @media (max-width: 320px) {
+// 		.preview{
+// 			h2{
+// 				font-size:35pt;
+// 			}
+// 			p{
+// 				font-size:16pt;
+// 				padding: 50px 1rem 0px 1rem; 
+// 			}
+// 		}
+// 		.about-me{
+// 			padding: 0; 
+// 	 		.col-md-6{
+// 	 			padding-left: 15px!important;
+// 	 			h2{
+// 	 				width: 97%;
+// 	 				font-size:20pt;
+// 	 			}				
+// 	 		}
+//  		}
+//  		.box{
+// 		 		p{
+// 		 			width: 45%;
+// 		 		}
+// 		 	} 
+// 		 	.box-2{
+// 		 		h2{
+// 		 			width: 60%;
+// 		 		}
+// 		 	} 
+// 		 	.contact{
+// 		 		h2{
+// 		 			width: 95%;
+// 		 			font-size:25pt;
+// 		 		}
+// 		 	}
+// 		 	.info {
+// 		    width: 100%;
+// 		    padding-bottom: 0px;
+// 	  	}
+// 		 	.info p.p-5{
+// 				width: 100%;
+// 		 		padding: .5rem!important; 
+// 		 		padding-top: 3rem!important;
+// 		 	}
+// 		 	form.p-5{
+// 		 		padding: .5rem!important;
+// 		 	}
+// 			form .custom-control.float-right{
+// 				float:none!important;
+// 			}
+// 			form .btn.float-right{
+// 					float:none!important;
+// 				}
 
-}
+// }

@@ -1,0 +1,208 @@
+body {
+  background: #e2e2e2;
+}
+
+.mt-0 {
+  margin-top: 200px !important;
+}
+
+.ml-0 {
+  margin-left: 80px !important;
+}
+
+.container3 .row {
+  width: 600px !important;
+}
+
+.container .row {
+  width: 1000px;
+}
+
+.container2 .row {
+  width: 500px;
+  color: #000;
+}
+
+#p1 {
+  width: 0;
+  -webkit-animation: p1 1.5s ease-in-out forwards;
+  animation: p1 1.5s ease-in-out forwards;
+}
+
+@-webkit-keyframes p1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes p1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#p2 {
+  width: 0;
+  -webkit-animation: p2 1.5s ease-in-out forwards;
+  animation: p2 1.5s ease-in-out forwards;
+}
+
+@-webkit-keyframes p2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes p2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#p3 {
+  width: 0;
+  -webkit-animation: p3 1.5s ease-in-out forwards;
+  animation: p3 1.5s ease-in-out forwards;
+}
+
+@-webkit-keyframes p3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes p3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#p4 {
+  width: 0;
+  -webkit-animation: p4 1.5s ease-in-out forwards;
+  animation: p4 1.5s ease-in-out forwards;
+}
+
+@-webkit-keyframes p4 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 10%;
+  }
+}
+
+@keyframes p4 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 10%;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#p5 {
+  width: 0;
+  -webkit-animation: p5 1.5s ease-in-out forwards;
+  animation: p5 1.5s ease-in-out forwards;
+}
+
+@-webkit-keyframes p5 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 5%;
+  }
+}
+
+@keyframes p5 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 5%;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.col-md-5 {
+  background: #2b5a84;
+  color: white;
+}
+
+.box-3 p {
+  margin-left: 20px;
+}
+

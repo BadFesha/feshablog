@@ -22,7 +22,7 @@ gulp.task('browser-sync', function() {
 		// open: false,
 		//online: false, // Work Offline Without Internet Connection
 		online: true,
-		tunnel: true, 
+		tunnel: false, 
 		tunnel: "feshablog", // Demonstration page: http://projectname.localtunnel.me
 	})
 });
